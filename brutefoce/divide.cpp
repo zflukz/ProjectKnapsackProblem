@@ -25,7 +25,7 @@ int knapsackDivideAndConquer(const vector<int>& weights, const vector<int>& valu
 }
 
 int main() {
-    ifstream inputFile("knapsack25.txt");
+    ifstream inputFile("knapsack50.txt");
 
     if (!inputFile) {
         cerr << "Error opening file!" << endl;
