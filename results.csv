@@ -1,0 +1,21 @@
+knapsack25.txt
+Algorithm,1 : Result and Runtime(µs) ,2 : Result and Runtime(µs),3 : Result and Runtime(µs),4 : Result and Runtime(µs)5 : Result and Runtime(µs)
+Genetic Algorithm,1575  1354876,1575  1346088,1575  1366134,1575  1370409,1575  1362697,
+Greedy Algorithm,1575  4,1575  2,1575  2,1575  2,1575  2,
+Dynamic Programming,1575 108,1575 84,1575 68,1575 69,1575 69,
+
+
+knapsack50.txt
+Algorithm,1 : Result and Runtime(µs) ,2 : Result and Runtime(µs),3 : Result and Runtime(µs),4 : Result and Runtime(µs)5 : Result and Runtime(µs)
+Genetic Algorithm,5791  1539593,5825  1593122,5825  1538700,5791  1565433,5789  1594423,
+Greedy Algorithm,5825  11,5825  7,5825  6,5825  6,5825  6,
+Dynamic Programming,5825 783,5825 651,5825 880,5825 864,5825 988,
+
+
+knapsack100.txt
+Algorithm,1 : Result and Runtime(µs) ,2 : Result and Runtime(µs),3 : Result and Runtime(µs),4 : Result and Runtime(µs)5 : Result and Runtime(µs)
+Genetic Algorithm,20311  1826004,20495  1847371,20654  1813085,20324  1874411,20598  1823982,
+Greedy Algorithm,21921  12,21921  10,21921  8,21921  8,21921  8,
+Dynamic Programming,21921 4915,21921 5142,21921 5376,21921 6207,21921 4589,
+
+

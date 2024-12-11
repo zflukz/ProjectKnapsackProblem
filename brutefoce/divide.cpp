@@ -11,7 +11,7 @@ int knapsackDivideAndConquer(const vector<int>& weights, const vector<int>& valu
     // Base case: no items left or no capacity left
     if (n == 0 || capacity == 0)
         return 0;
-
+    cout << "HIT";
     // If the weight of the nth item is more than the remaining capacity, exclude it
     if (weights[n - 1] > capacity)
         return knapsackDivideAndConquer(weights, values, capacity, n - 1);

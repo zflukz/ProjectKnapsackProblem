@@ -158,10 +158,21 @@ void Population::evolve(double mutationRate, int elitismCount, int numBreakpoint
     individuals = newPopulation;
     calculateFitness();
 }
-
+void Population::displayPopulation() const {
+        for (size_t i = 0; i < individuals.size(); i++) {
+            for (bool gene : individuals[i]) {
+                cout << gene;
+            }
+            cout << " -> Fitness: " << fitness[i] << endl;
+        }
+    }
 void Population::displayPopulation(int i) const {
     for (bool gene : individuals[i]) {
         cout << gene;
     }
     cout << " -> Fitness: " << fitness[i] << endl;
+}
+int Population::displayFitness(int i) const {
+    
+    return  fitness[i] ;
 }

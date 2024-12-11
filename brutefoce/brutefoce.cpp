@@ -22,19 +22,3 @@ int knapsackBruteForce(const vector<int>& weights, const vector<int>& values, in
 
     return max(includeItem, excludeItem);
 }
-
-int main() {
-    // Example input: weights, values, and capacity
-    vector<int> weights = {1, 2, 3, 4}; // Weights of items
-    vector<int> values = {10, 20, 30, 40}; // Values of items
-    int capacity = 5; // Capacity of the knapsack
-
-    int n = weights.size();
-    
-    // Call the brute-force knapsack function
-    int maxValue = knapsackBruteForce(weights, values, capacity, n);
-
-    cout << "Maximum value: " << maxValue << endl;
-
-    return 0;
-}

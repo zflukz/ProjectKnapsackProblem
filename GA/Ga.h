@@ -3,8 +3,7 @@
 
 #include <vector>
 
-class Item {
-public:
+struct Item {
     int value;
     int weight;
 };
@@ -26,6 +25,9 @@ public:
     Population(int n, int maxWeight, const std::vector<Item>& itemList);
     void evolve(double mutationRate, int elitismCount, int numBreakpoints);
     void displayPopulation(int i) const;
+    void displayPopulation() const;
+    int displayFitness(int i) const;
+    
 };
 
 #endif

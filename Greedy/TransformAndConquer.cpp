@@ -4,14 +4,14 @@
 using namespace std;
 
 // Structure to represent an item
-struct Item {
+struct ItemG {
     int weight;
     int value;
     double ratio; // Value-to-weight ratio
 };
 
 // Comparison function for sorting items by value-to-weight ratio
-bool compare(Item a, Item b) {
+bool compare(ItemG a, ItemG b) {
     return a.ratio > b.ratio; // Sort in descending order
 }
 
@@ -19,7 +19,7 @@ bool compare(Item a, Item b) {
 int knapsackTransformAndConquer(const vector<int>& weights, const vector<int>& values, int capacity) {
     int n = weights.size();
 
-    vector<Item> items(n);
+    vector<ItemG> items(n);
     for (int i = 0; i < n; i++) {
         items[i] = {weights[i], values[i], (double)values[i] / weights[i]};
     }
